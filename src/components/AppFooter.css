@@ -1,0 +1,140 @@
+.app-main {
+    min-height: 100vh;
+    width: 100%;
+    user-select: none;
+}
+
+.app-contact {
+    height: calc(100vh - 50px);
+    background-image: url("../images/bg7.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.app-end {
+    height: 50px;
+    border-top: 1px solid gray;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #191911;
+    color: #fff;
+}
+
+.footer-section {
+    display: flex;
+    max-width: 1200px;
+    height: inherit;
+    margin: auto;
+}
+
+.footer-grid {
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'footer-images footer-about';
+}
+
+.footer-about {
+    grid-area: footer-about;
+    text-align: left;
+    padding: 20px;
+    margin: auto;
+    color: #fff;
+}
+
+.footer-bio {
+    height: 360px;
+}
+
+.footer-bio h3 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.footer-bio p a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.footer-bio p a:hover {
+    color: #ff4584;
+    transform: translate(-3px 3px);
+}
+
+.footer-image {
+    background-image: url("../images/profile.JPEG");
+    width: 387px;
+    height: 542px;
+}
+
+.footer-image .image-bio {
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer-image .image-bio:hover {
+    background-image: url('../images/name.png');
+}
+
+
+.footer-flex{
+    text-align: center;
+}
+
+.footer-flex h4 {
+    display: grid;
+    grid-template-columns: 1fr .9fr 1fr;
+}
+
+.footer-flex h4 .before {
+    height: 2px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #e5e5e5;
+}
+
+.footer-flex h4 .after {
+    height: 2px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #e5e5e5;
+}
+
+.footer-flex h4 .content-center {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer-flex .sci {
+    padding-left: 15px;
+    color: #fff;
+}
+
+.footer-flex .sci:hover {
+    color: #ff4584;
+}

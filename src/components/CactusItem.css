@@ -1,0 +1,22 @@
+.cactus-item{
+  text-align: center;
+  transition: .25s;
+  cursor: pointer;
+}
+
+.cactus-item:hover {
+  background-color: rgba(165, 42, 42, 0.267);
+  transform: translateY(-10px);
+}
+
+
+.cactus-item img {
+  width: 100%;
+  height: auto;
+}
+
+.cactus-item p {
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}

@@ -1,0 +1,135 @@
+header {
+  height: 100vh;
+}
+
+.app-content {
+  background-image: url("../images/bg3.jpg");
+  background-color: #cccccc;
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.app-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 840px;
+}
+
+.app-text h1 {
+  line-height: 5rem;
+  font-size: 2.5rem;
+}
+
+.app-text .discribtion .discBx {
+  position: relative;
+  left: 15%;
+  line-height: 1.6rem;
+  width: inherit;
+  width: 500px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.app-button .btn-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-item p {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  transition: all 0.25 ease;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.btn-item .btn-1{
+  color: #fff;
+}
+
+.btn-item .btn-1:hover {
+  transform: translate(0, -6px);
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, 0.5),
+  -10px 10px 25px 0px rgba(39, 200, 255, 0.5);
+}
+
+.btn-item .btn-1:hover::after{
+  transform: rotate(150deg);
+}
+
+.btn-item .btn-1::after {
+  content: "";
+  background-color: #ff3cac;
+  background-image: linear-gradient(255deg, #27d86c 0%,
+  #26caf8 50%, #c625d0 100%);
+  z-index: -1;
+  transition: all 0.25 ease;
+}
+
+nav {
+  border-bottom: 1px solid gray;
+  max-width: 1920px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #191911;
+  user-select: none;
+}
+
+nav h1 {
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+nav img {
+  max-width: 50px;
+  margin-top: -20px;
+}
+
+.fixed-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.i-scroll {
+  color: #fff;
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.fixed-scroll {
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  cursor: pointer;
+  visibility: visible;
+  z-index: 1;
+}

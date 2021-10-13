@@ -1,0 +1,84 @@
+.cactus-post {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.cactus-post-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.cactus-post-content {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #191911;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'image-post discribtion-post';
+}
+
+.cactus-post-content .image-post {
+    grid-area: image-post;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-post .img-disc img {
+    width: 550px;
+    height: auto;
+}
+
+.image-post .img-disc h2{
+    text-shadow: 2px 2px 8px #FF0000
+}
+
+.cactus-post-content .discribtion-post {
+    grid-area: discribtion-post;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disc-Bx {
+    font-size: 20px;
+}
+
+.disc-Bx table,tr,td{
+    padding: 10px;
+}
+
+.disc-Bx .title-disc {
+    color: #99b1bd;
+    text-align: end;
+}
+
+.disc-Bx .detail-disc {
+    text-align: start;
+}
+
+
